@@ -6,10 +6,11 @@ CNN is a type of deep learning neural network that is very effective at computer
 > Keras Applications are deep learning models that are made available alongside pre-trained weights. These models can be used for prediction, feature extraction, and fine-tuning - [Source](https://keras.io/api/applications/)
 
 **Available Models used**
+Printed out top 3 prediction labels from models. Stating below when the model predicted correctly out of the top 3.
 
 Model | Parameters | Results
 ------|------------|--------
-Xception | 22,910,480 | 
+Xception | 22,910,480 | (1) Top 1 <br> (2) Top 3 <br> (3) Top 1 <br> (4) Top 1 <br>(5) 0
 VGG19 | 143,667,240 | 
 ResNet152 | 60,419,944| 
 InceptionResNetV2 | 55,873,736 | 
