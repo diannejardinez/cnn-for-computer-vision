@@ -6,9 +6,8 @@ CNN is a type of deep learning neural network that is very effective at computer
 > Keras Applications are deep learning models that are made available alongside pre-trained weights. These models can be used for prediction, feature extraction, and fine-tuning - [Source](https://keras.io/api/applications/)
 
 **Available Models used**
-
-Printed out top 5 prediction labels from models for 10 images. The results below states when the model predicted correctly out of the top 5.
-<br>Images: (1) Pembroke Welsh Corgi, (2) Cocker Spaniel, (3) Giant Panda, (4) Hamster, (5) Hedgehog, (6) Brittany Spaniel, (7) Macaw, (8) Tabby cat, (9) Red-eyed Tree Frog, (10) French Bulldog 
+<br>Printed out top 5 prediction labels from models for 10 images. The results below states when the model predicted correctly out of the top 5.
+<br> **Images**: (1) Pembroke Welsh Corgi, (2) Cocker Spaniel, (3) Giant Panda, (4) Hamster, (5) Hedgehog, (6) Brittany Spaniel, (7) Macaw, (8) Tabby cat, (9) Red-eyed Tree Frog, (10) French Bulldog 
 
 
 
