@@ -13,7 +13,7 @@ Printed out top 5 prediction labels from models for 10 images. The results below
 
 
 Model | Parameters | Known Top-5 Accuracy |Image Results
-------|------------|--------
+------|------------|----------------------|------------- 
 Xception | 22,910,480 | 0.945 | 
 VGG19 | 143,667,240 | 0.900 |
 ResNet152 | 60,419,944| 0.931 |
