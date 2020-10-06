@@ -1,6 +1,7 @@
 # Convolutional Neural Network (CNN) for computer vision
 CNN is a type of deep learning neural network that is very effective at computer vision. This repository will be a group of small projects regarding CNN for Computer vision using Keras and Tensorflow
 
+---
 
 ### Keras Applications - Static Images
 > Keras Applications are deep learning models that are made available alongside pre-trained weights. These models can be used for prediction, feature extraction, and fine-tuning - [Source](https://keras.io/api/applications/)
@@ -24,3 +25,5 @@ NASNetLarge | 88,949,818 | 0.960 | 8: top 1<br>1: top 4<br>1: no top 5
 <br>1. ResNet152<br>
 2. Xception, InceptionResNetV2, NASNetLarge<br>
 3. VGG19
+
+---
