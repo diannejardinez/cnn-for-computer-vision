@@ -13,8 +13,14 @@ CNN is a type of deep learning neural network that is very effective at computer
 
 Model | Parameters | Known Top-5 Accuracy |Image Results
 ------|------------|----------------------|------------- 
-VGG19 | 143,667,240 | 0.900 |
-ResNet152 | 60,419,944| 0.931 |
-Xception | 22,910,480 | 0.945 | 
-InceptionResNetV2 | 55,873,736 | 0.953 |
-NASNetLarge | 88,949,818 | 0.960 |
+VGG19 | 143,667,240 | 0.900 | 7: top 1<br>2: top 2<br>1: no top 5
+ResNet152 | 60,419,944| 0.931 | 8: top 1<br>1: top 2<br>1: no top 5
+Xception | 22,910,480 | 0.945 | 8: top 1 <br>1: top 4<br>1: not top 5
+InceptionResNetV2 | 55,873,736 | 0.953 | 8: top 1<br>1: top 4<br>1: no top 5
+NASNetLarge | 88,949,818 | 0.960 | 8: top 1<br>1: top 4<br>1: no top 5
+
+
+**Ranking Models**
+	1. ResNet152
+	2. Xception, InceptionResNetV2, NASNetLarge
+	3. VGG19
