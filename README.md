@@ -21,6 +21,6 @@ NASNetLarge | 88,949,818 | 0.960 | 8: top 1<br>1: top 4<br>1: no top 5
 
 
 **Ranking Models**
-- 1. ResNet152
-- 2. Xception, InceptionResNetV2, NASNetLarge
-- 3. VGG19
+<br>1. ResNet152<br>
+2. Xception, InceptionResNetV2, NASNetLarge<br>
+3. VGG19
