@@ -96,28 +96,28 @@ There are 60,000 images in the training set
 	- Dense layer with 100 neurons and a relu activation function
 	- Dropout layers with the dropout rate = 0.25 and 0.5 after each Dense layer. This prevents overfitting and produced the best results.
 - Train the classifier
-```
-model.compile(loss = 'categorical_crossentropy',
-              optimizer = SGD(0.01),
-              metrics = ['accuracy'])
-```
+	```
+	model.compile(loss = 'categorical_crossentropy',
+	              optimizer = SGD(0.01),
+	              metrics = ['accuracy'])
+	```
 
 - Fit the model
 	- Use 10 Epochs
 	- Used X_test, y_test as the validation data
 - Test the model and print the loss and accuracy values
-```
-Loss on the TEST Set: 0.11469
-Accuracy on the TEST Set: 0.9645
-```
-```
-history = model.fit(X_train,
-                    y_train,
-                    batch_size = batch_size,
-                    epochs = epochs,
-                    verbose = 1,
-	                validation_data = (X_test, y_test))
-```
+	```
+	Loss on the TEST Set: 0.11469
+	Accuracy on the TEST Set: 0.9645
+	```
+	```
+	history = model.fit(X_train,
+	                    y_train,
+	                    batch_size = batch_size,
+	                    epochs = epochs,
+	                    verbose = 1,
+		                validation_data = (X_test, y_test))
+	```
 - Save the model
 - Plot the loss and accuracy values achieved during training the the training and validation set
 ![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-digits/Images/loss_and_accuracy_charts.png)
