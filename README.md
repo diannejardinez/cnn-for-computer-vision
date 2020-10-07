@@ -4,8 +4,8 @@ CNN is a type of deep learning neural network that is very effective at computer
 
 
 ## Table of contents
-* [Keras Applications - Static Images](#1.-Keras-Applications---Static-Images)
-* [MNIST digits classification](#2.-Keras-Built-in-small-Datasets:-MNIST-digits-classification)
+* [Keras Applications - Static Images](#1-keras-applications---static-images)
+* [MNIST digits classification](##2-keras-built-in-small-datasets-mnist-digits-classification)
 
 
 ---
