@@ -77,7 +77,8 @@ ML imports:
 ##### Explore datatset
 	```
 	There are 10,000 images in the test set
-	There are 60,000 images in the training set```
+	There are 60,000 images in the training set
+	```
 
 ##### Create Pipeline
 - Normalize the training set and testing set
@@ -112,7 +113,8 @@ ML imports:
 	                    batch_size = batch_size,
 	                    epochs = epochs,
 	                    verbose = 1,
-		                    validation_data = (X_test, y_test))```
+		                    validation_data = (X_test, y_test))
+	```
 - Save the model
 - Plot the loss and accuracy values achieved during training the the training and validation set
 ![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-digits/Images/loss_and_accuracy_charts.png)
