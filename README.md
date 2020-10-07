@@ -36,5 +36,33 @@ NASNetLarge | 88,949,818 | 0.960 | 8: top 1<br>1: top 4<br>1: no top 5
 **Project Summary**
 <br>Creating a model based on the MNIST Dataset of grayscale image data with shapes and testing our model on test and real data.
 
+<br>
+
+#### Dependencies
+
+Basic imports:
+
+```
+import numpy as np
+import matplotlib.pyplot as plt
+import os
+```
+
+ML imports:
+```
+import tensorflow as tf
+from sklearn.preprocessing import MinMaxScaler
+from tensorflow import keras
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.datasets import mnist
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Flatten
+from tensorflow.keras.optimizers import SGD
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.preprocessing.image import img_to_array
+from IPython.display import Image, SVG
+```
+
 
 
