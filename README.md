@@ -33,10 +33,9 @@ NASNetLarge | 88,949,818 | 0.960 | 8: top 1<br>1: top 4<br>1: no top 5
 ### Keras Built-in small Datasets: MNIST digits classification 
 > The tf.keras.datasets module provide a few toy datasets (already-vectorized, in Numpy format) that can be used for debugging a model or creating simple code examples - [Source](https://keras.io/api/datasets)
 
-**Project Summary**
+#### Project Summary
 <br>Creating a model based on the MNIST Dataset of grayscale image data with shapes and testing our model on test and real data.
 
-<br>
 
 #### Dependencies
 
