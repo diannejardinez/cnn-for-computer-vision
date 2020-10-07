@@ -4,7 +4,7 @@ CNN is a type of deep learning neural network that is very effective at computer
 ---
 
 ### Keras Applications - Static Images
-> Keras Applications are deep learning models that are made available alongside pre-trained weights. These models can be used for prediction, feature extraction, and fine-tuning - [Source](https://keras.io/api/applications/)
+> Keras Applications are deep learning models that are made available alongside pre-trained weights. These models can be used for prediction, feature extraction, and fine-tuning - [Source](https://keras.io/api/applications)
 
 **Available Models used**
 <br>Printed out top 5 prediction labels from models for 10 images. The results below states when the model predicted correctly out of the top 5.
@@ -30,3 +30,4 @@ NASNetLarge | 88,949,818 | 0.960 | 8: top 1<br>1: top 4<br>1: no top 5
 
 ---
 ### Keras Built-in small Datasets: MNIST digits classification 
+> The tf.keras.datasets module provide a few toy datasets (already-vectorized, in Numpy format) that can be used for debugging a model or creating simple code examples - [Source](https://keras.io/api/datasets)
