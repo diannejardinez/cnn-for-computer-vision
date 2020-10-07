@@ -47,28 +47,27 @@ Creating a model based on the MNIST Dataset of grayscale image data with shapes 
 #### Dependencies
 
 Basic imports:
-
-```
-import numpy as np
-import matplotlib.pyplot as plt
-import os
-```
+	```
+	import numpy as np
+	import matplotlib.pyplot as plt
+	import os
+	```
 
 ML imports:
-```
-import tensorflow as tf
-from sklearn.preprocessing import MinMaxScaler
-from tensorflow import keras
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.datasets import mnist
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout, Flatten
-from tensorflow.keras.optimizers import SGD
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.preprocessing.image import img_to_array
-from IPython.display import Image, SVG
-```
+	```
+	import tensorflow as tf
+	from sklearn.preprocessing import MinMaxScaler
+	from tensorflow import keras
+	from tensorflow.keras.utils import to_categorical
+	from tensorflow.keras.datasets import mnist
+	from tensorflow.keras.models import Sequential
+	from tensorflow.keras.layers import Dense, Dropout, Flatten
+	from tensorflow.keras.optimizers import SGD
+	from tensorflow.keras.models import load_model
+	from tensorflow.keras.preprocessing import image
+	from tensorflow.keras.preprocessing.image import img_to_array
+	from IPython.display import Image, SVG
+	```
 
 #### Steps
 ##### Load the Data
@@ -78,8 +77,7 @@ from IPython.display import Image, SVG
 ##### Explore datatset
 	```
 	There are 10,000 images in the test set
-	There are 60,000 images in the training set
-```
+	There are 60,000 images in the training set```
 
 ##### Create Pipeline
 - Normalize the training set and testing set
@@ -114,8 +112,7 @@ from IPython.display import Image, SVG
 	                    batch_size = batch_size,
 	                    epochs = epochs,
 	                    verbose = 1,
-		                    validation_data = (X_test, y_test))
-```
+		                    validation_data = (X_test, y_test))```
 - Save the model
 - Plot the loss and accuracy values achieved during training the the training and validation set
 ![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-digits/Images/loss_and_accuracy_charts.png)
