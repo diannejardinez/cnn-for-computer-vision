@@ -93,7 +93,7 @@ There are 60,000 images in the training set
 
 ##### Build and Train the Classifier
 - Create a tf.keras Sequential model with the following layers:
-	- Dense layer with 100 neurons and a relu activation function
+	- Dense layer with 100 neurons and a `relu` activation function
 	- Dropout layers with the dropout rate = 0.25 and 0.5 after each Dense layer. This prevents overfitting and produced the best results.
 - Train the classifier
 	```
@@ -103,8 +103,8 @@ There are 60,000 images in the training set
 	```
 
 - Fit the model
-	- Use 10 Epochs
-	- Used X_test, y_test as the validation data
+	- Use `10 Epochs`
+	- Used `X_test, y_test` as the validation data
 - Test the model and print the loss and accuracy values
 	```
 	Loss on the TEST Set: 0.11469
