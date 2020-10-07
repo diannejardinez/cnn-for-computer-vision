@@ -70,5 +70,58 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from IPython.display import Image, SVG
 ```
 
+##### Steps
+**Load the Data**
+- Use `tf.keras.datasets` to load the 60,000 28x28 grayscale images of the 10 digits [MNIST digits classification dataset](https://keras.io/api/datasets/mnist/)
+- This dataset has 2 splits: 'train' and 'test'
+
+**Explore datatset**
+```
+There are 10,000 images in the test set
+There are 60,000 images in the training set
+
+```
+
+**Create Pipeline**
+- Normalize the training set and testing set
+- Use `MinMaxScaler` to scale the numerical data
+- Resize the training and testing from 28x28 to 784 pixels
+- Shuffle and batch the data with `batch_size = 32`
+
+
+**Build and Train the Classifier**
+- Create a tf.keras Sequential model with the following layers:
+	- Dense layer with 100 neurons and a relu activation function
+	- Dropout layers with the dropout rate = 0.25 and 0.5 after each Dense layer. This prevents overfitting and produced the best results.
+- Train the classifier
+```
+model.compile(loss = 'categorical_crossentropy',
+              optimizer = SGD(0.01),
+              metrics = ['accuracy'])
+```
+- Fit the model
+	- Use 10 Epochs
+	- Used X_test, y_test as the validation data
+-Test the model and print the loss and accuracy values
+```
+```
+Loss on the TEST Set: 0.11469
+Accuracy on the TEST Set: 0.9645
+```
+history = model.fit(X_train,
+                    y_train,
+                    batch_size = batch_size,
+                    epochs = epochs,
+                    verbose = 1,
+                    validation_data = (X_test, y_test))
+```
+- Save the model
+- Plot the loss and accuracy values achieved during training the the training and validation set
+![](Images/loss_and_accuracy_charts.png)
+
+
+#####  Analysis - Model
+
+
 
 
