@@ -107,6 +107,7 @@ There are 60,000 images in the training set
 - Fit the model
 	- Use `10 Epochs`
 	- Used `X_test, y_test` as the validation data
+	
 	```
 	history = model.fit(X_train,
 	                    y_train,
