@@ -107,12 +107,7 @@ There are 60,000 images in the training set
 - Fit the model
 	- Use `10 Epochs`
 	- Used `X_test, y_test` as the validation data
-- Test the model and print the loss and accuracy values
-	```
-	Loss on the TEST Set: 0.11469
-	Accuracy on the TEST Set: 0.9645
-	```
-	```
+		```
 	history = model.fit(X_train,
 	                    y_train,
 	                    batch_size = batch_size,
@@ -120,6 +115,12 @@ There are 60,000 images in the training set
 	                    verbose = 1,
 		                validation_data = (X_test, y_test))
 	```
+- Test the model and print the loss and accuracy values
+	```
+	Loss on the TEST Set: 0.11469
+	Accuracy on the TEST Set: 0.9645
+	```
+
 - Save the model
 - Plot the loss and accuracy values achieved during training the the training and validation set
 ![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-digits/Images/loss_and_accuracy_charts.png)
