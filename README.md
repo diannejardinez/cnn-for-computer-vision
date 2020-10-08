@@ -125,7 +125,7 @@ There are 60,000 images in the training set
 
 #### Analysis - Model
 - Output prediction example of model(left) from image data(right)
-![]()
+![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-digits/Images/output_1.png)
 
 
 
