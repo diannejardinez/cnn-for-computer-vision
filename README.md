@@ -2,11 +2,13 @@
 CNN is a type of deep learning neural network that is very effective at computer vision. This repository will be a group of small projects regarding CNN for Computer vision using Keras and Tensorflow
 
 
-<br>
+
+
 ### Table of contents
 * [Keras Applications - Static Images](#1-keras-applications---static-images)
 * [MNIST digits classification](#2-keras-built-in-small-datasets-mnist-digits-classification)
-<br>
+
+
 
 ---
 
