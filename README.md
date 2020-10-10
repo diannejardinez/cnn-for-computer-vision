@@ -6,8 +6,8 @@ CNN is a type of deep learning neural network that is very effective at computer
 
 ### Table of contents
 * [Keras Applications - Static Images](#1-keras-applications---static-images)
-* [MNIST digits classification](#2-keras-built-in-small-datasets-mnist-digits-classification)
-
+* [MNIST classification digits](#2-keras-built-in-small-datasets-mnist-digits-classification)
+* [MNIST classification Sign Language]()
 
 
 ---
@@ -135,5 +135,14 @@ There are 60,000 images in the training set
 ![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-digits/Images/output_3.png)
 
 
+---
+
+### 3. Kaggle dataset: MNIST classification Sign Language
+
+#### Project Summary
+Creating a model based on the Kaggle Dataset of an American Sign Language letter database of 24 hand gestures representing letters (excluding J and Z which require motion) and testing our model on test and real data.
+
+#### Limitations
+- Model trained on sign language letters and not words or phrases
 
 
