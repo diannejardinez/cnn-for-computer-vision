@@ -144,16 +144,16 @@ Creating a model based on the Kaggle Dataset of an American Sign Language letter
 
 #### Analysis
 - Accuracy Chart
-	![]()
-- Test Accuracy score: 0.7726
+	![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-Sign-Language/Images/test_accuracy_chart.png)
+- Test Accuracy score: **0.7726**
 
 - Webcam Test
 	- Correct: (C)
-	![]()
+	![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-Sign-Language/Images/webcam_test_correct_c.png)
 
 	- Incorrect: (A)
-	![]()
-	![]()
+	![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-Sign-Language/Images/webcam_test_incorrect_a-1.png)
+	![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-Sign-Language/Images/webcam_test_incorrect_a-2.png)
 
 #### Limitations
 - Model trained on sign language letters and not words or phrases
