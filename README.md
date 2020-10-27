@@ -143,8 +143,8 @@ There are 60,000 images in the training set
 Creating a model based on the Kaggle Dataset of an American Sign Language letter database of 24 hand gestures representing letters (excluding J and Z which require motion) and testing our model on test and real data.
 
 #### Analysis
-- Accuracy Chart
-	![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-Sign-Language/Images/test_accuracy_chart.png)
+- Accuracy and Loss Chart
+	![](https://github.com/diannejardinez/cnn-for-computer-vision/blob/main/CNN-MNIST-Sign-Language/Images/test_accuracyandloss_chart.png)
 - Test Accuracy score: **0.7726**
 
 - Webcam Test
